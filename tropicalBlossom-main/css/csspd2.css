@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+main {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .conteudo {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    width: 721px;
+  }
+
+  .imagem {
+
+    padding: 5px;
+    margin-right: 5px;
+  }
+
+  .imagem img{
+    object-fit: cover;  
+    border-radius : 10px;
+    width: 397px;
+    height: 529px;
+  }
+
+  .descricao{
+    width: 681px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+  }
+
+  
+
+  .preço{
+    color: #34623C;
+    font-size: 24px;
+    line-height: 2.4;
+  }
+  
+  .botao {
+    padding: 10px 20px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .entrega{
+    margin: 10px 0px 20px 0px;
+    font-size: 15px; 
+  }
+
+
+  .entrega p{
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.quantidade-comprar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.texto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quantidade-comprar i{
+  background: #EFEFEF;
+}
+
+.frete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  width: 381px;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: gray;
+  color: white;
+ }
+
+ 
+ footer .line-footer1{
+   text-align: center;
+ }
+
+ .line-footer1 h2{
+  font-size: 2rem;
+  
+ }
+
+ .line-footer1 p{
+  font-size: 1.2rem;
+  
+ }
+
+ footer .containerft img{
+  height: 10;
+  width: 10%;
+ }
